@@ -11,7 +11,8 @@ import scipy
 import tensorflow as tf
 import scipy.sparse as sp
 
-from scipy.sparse.linalg.eigen.arpack import eigsh
+from scipy.sparse.linalg import eigsh
+
 from openea.modules.utils.util import generate_out_folder
 
 from openea.modules.bootstrapping.alignment_finder import find_alignment

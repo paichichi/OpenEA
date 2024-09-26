@@ -7,7 +7,7 @@ import tensorflow as tf
 import numpy as np
 
 import scipy.sparse as sp
-from scipy.sparse.linalg.eigen.arpack import eigsh
+from scipy.sparse.linalg import eigsh
 
 import openea.modules.load.read as rd
 import openea.modules.train.batch as bat
